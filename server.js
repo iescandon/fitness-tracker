@@ -15,10 +15,12 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
 	useFindAndModify: false,
 });
 
-// routes
-require('./routes/api.js')(app);
-require('./routes/html.js')(app);
+require('./routes/api-routes.js')(app);
+require('./routes/html-routes.js')(app);
 
 app.listen(PORT, () => {
 	console.log(`App running on port ${PORT}!`);
 });
+
+// const morgan = require('morgan');
+// app.use(morgan('tiny'));
