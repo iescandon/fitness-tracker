@@ -1,51 +1,49 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Fitness Tracker [GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+# Live Site
 
-## User Story
+https://protected-lake-56010.herokuapp.com/
 
-- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Description
 
-## Business Context
+This application is a full-stack application designed as a fitness logger that utilizes MongoDB, Mongoose, Express and Node. The user can add or complete a workout to be added to the database. Users can also view their past workouts which are rendered immediately based on the up-to-date charts. MVC design pattern was followed.
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+## Table of Contents
 
-## Acceptance Criteria
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+## Installation
 
-The user should be able to:
+In order to install this project, you must login to GitHub and go to github.com/iescandon/fitness-tracker. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
-- Add exercises to a previous workout plan.
+Using SSH/HTML Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone _paste url here_. Once you have cloned the fitness-tracker repo, cd into the repo and type "open ." to open the folder which contains all files used for the website. You can also type "code ." to open the repo in VS code.
 
-- Add new exercises to a new workout plan.
+Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and and open it. All the files for the website will be within this folder.
 
-- View multiple the combined weight of multiple exercises on the `stats` page.
+## Usage
 
-## Commit Early and Often
+Simply click on the live link listed above and use the website as normal. Type in the form and click submit to create your own workout. Click on the Dashboard button to view interactive charts. Charts will change according to what workouts are removed.
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## License
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+Copyright (c) [2020][inezescandon]
+The license is MIT License.
+Read more about it at https://opensource.org/licenses/MIT.
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## Credits
 
-Follow these guidelines for committing:
+Worked with my tutor Ivan Popov and my TA Brandon Gatlin.
 
-- Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## Tests
 
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+No tests available.
 
-- Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Questions
 
-- Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL to the deployed application
-
-- The URL to the Github repository
+If you have any additional questions please contact me at iescan4@gmail.com.
+GitHub: https://github.com/iescandon
