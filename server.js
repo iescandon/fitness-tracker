@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-let uri = 'mongodb://localhost/workouts';
+let uri = 'mongodb://localhost/workouts_db';
 if (process.env.NODE_ENV === 'production') {
 	uri = process.env.MONGODB_URI;
 }
